@@ -3,9 +3,10 @@ import BackgroundVideo from '../assets/background.mp4';
 
 type Props = {
   active: boolean;
+  onLoadedData: () => void;
 };
 
-const BackgroundController = ({active}: Props) => {
+const BackgroundController = ({active, onLoadedData}: Props) => {
   const bgRef = useRef<HTMLDivElement | null>(null);
   const lightningTimeoutId = useRef<number | null>(null);
 
@@ -54,7 +55,7 @@ const BackgroundController = ({active}: Props) => {
 
   return (
     <>
-      <video autoPlay loop muted className='background-video'>
+      <video autoPlay loop muted className='background-video' onLoadedData={onLoadedData}>
         <source src={BackgroundVideo} type='video/mp4' />
       </video>
       <div ref={bgRef} className='background-overlay'></div>

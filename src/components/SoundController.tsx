@@ -3,9 +3,10 @@ import rainAudio from '../assets/rain.mp3';
 
 type Props = {
   active: boolean;
+  onLoadedData: () => void;
 };
 
-const SoundController = ({active}: Props) => {
+const SoundController = ({active, onLoadedData}: Props) => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
@@ -17,7 +18,7 @@ const SoundController = ({active}: Props) => {
   }, [active]);
 
   return (
-    <audio loop autoPlay ref={audioRef}>
+    <audio loop autoPlay ref={audioRef} onLoadedData={onLoadedData}>
       <source src={rainAudio} type='audio/mpeg' />
     </audio>
   );
