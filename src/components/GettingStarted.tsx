@@ -9,7 +9,7 @@ const GettingStarted = () => {
         <kbd className='px-4 py-1.5 font-semibold text-black bg-blue-200 border border-gray-200 rounded-lg mx-2 md:mx-4'>
           Spacebar
         </kbd>
-        the screen to start the experience.
+        to start the experience.
       </p>
     </section>
   );
