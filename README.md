@@ -7,8 +7,9 @@ Rain Relax is a React-based web application that provides a soothing audio-visua
 1. [Demo](#demo)
 2. [Features](#features)
 3. [Installation](#installation)
-4. [Support](#support)
-5. [Contributing](#contributing)
+4. [Credits](#credits)
+5. [Support](#support)
+6. [Contributing](#contributing)
 
 ## Demo
 You can view the live demo of the application [here](https://enucar.github.io/rain-relax).
@@ -29,6 +30,11 @@ To run this project locally, you need to do the following:
 2. Navigate into the repository's directory with: `cd rain-relax`
 3. Install all the project dependencies with: `npm install`
 4. Start the project with: `npm run dev`
+
+## Credits
+
+- Video by [Aleks BM](https://www.pexels.com/video/rain-water-sliding-down-the-glass-window-surface-5197762/)
+- Sound Effect from [Pixabay](https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=16705)
 
 ## Support
 
