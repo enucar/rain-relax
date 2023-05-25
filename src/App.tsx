@@ -45,7 +45,7 @@ function App() {
   }, [videoLoaded, soundLoaded]);
 
   return (
-    <div className='relative w-full h-screen flex justify-center items-center px-4'>
+    <div className='fullpage relative w-full flex justify-center items-center px-4'>
       {soundLoaded && (
         <BackgroundController
           active={isActive}

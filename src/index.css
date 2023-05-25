@@ -36,3 +36,8 @@ body {
 h1, h2 {
   @apply text-blue-200
 }
+
+.fullpage {
+  height: 100vh;
+  height: 100dvh;
+}
