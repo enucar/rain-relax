@@ -45,7 +45,10 @@ function App() {
   }, [videoLoaded, soundLoaded]);
 
   return (
-    <div className='fullpage relative w-full flex justify-center items-center px-4'>
+    <div
+      className='fullpage relative w-full flex justify-center items-center px-4'
+      onDoubleClick={() => setIsActive((prevState) => !prevState)}
+    >
       {soundLoaded && (
         <BackgroundController
           active={isActive}

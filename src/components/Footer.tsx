@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className='text-xs max-w-sm mx-auto'>
-      <p className='mb-4'>
+      {/* <p className='mb-4'>
         If you enjoyed Rain Relax and want to show your support, consider buying
         me a coffee. I'd greatly appreciate it!{' '}
         <a
@@ -11,7 +11,7 @@ const Footer = () => {
         >
           Buy Me A Coffee
         </a>
-      </p>
+      </p> */}
       <ul>
         <li>
           <a
