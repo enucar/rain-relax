@@ -1,7 +1,7 @@
 const Instruction = () => {
   return (
     <aside>
-      <h2 className='font-["Bebas_Neue"] text-2xl md:text-4xl font-extrabold tracking-widest mb-8'>
+      <h2 className='font-["Bebas_Neue"] text-2xl md:text-4xl font-extrabold tracking-widest mb-4 md:mb-8'>
         Instructions
       </h2>
       <ol className='text-md md:text-xl uppercase text-white list-decimal list-inside marker:text-blue-200'>

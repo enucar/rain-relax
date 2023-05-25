@@ -1,7 +1,7 @@
 const GettingStarted = () => {
   return (
     <section>
-      <h2 className='font-["Bebas_Neue"] text-2xl md:text-4xl font-extrabold tracking-widest mb-8'>
+      <h2 className='font-["Bebas_Neue"] text-2xl md:text-4xl font-extrabold tracking-widest mb-4 md:mb-8'>
         Getting Started
       </h2>
       <p className='text-md md:text-xl leading-8'>

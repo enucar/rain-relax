@@ -57,7 +57,7 @@ function App() {
         onLoadedData={() => setSoundLoaded(true)}
       />
       {!isActive && !isLoading && (
-        <Container className='text-center text-white space-y-6 md:space-y-12 bg-black bg-opacity-80 py-8 md:py-24 px-8 md:px-32 rounded-2xl overflow-hidden'>
+        <Container className='text-center text-white space-y-4 md:space-y-12 bg-black bg-opacity-80 py-8 md:py-24 px-8 md:px-32 rounded-2xl overflow-hidden'>
           <Header />
           <hr />
           <Instruction />
