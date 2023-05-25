@@ -30,7 +30,7 @@ const BackgroundController = ({active, onLoadedData}: Props) => {
 
     lightningTimeoutId.current = window.setTimeout(
       createLightning,
-      Math.random() * 15000 + 3000
+      Math.random() * 15000 + 5000
     );
   }, []);
 
@@ -55,7 +55,13 @@ const BackgroundController = ({active, onLoadedData}: Props) => {
 
   return (
     <>
-      <video autoPlay loop muted className='background-video' onLoadedData={onLoadedData}>
+      <video
+        autoPlay
+        loop
+        muted
+        className='background-video'
+        onLoadedData={onLoadedData}
+      >
         <source src={BackgroundVideo} type='video/mp4' />
       </video>
       <div ref={bgRef} className='background-overlay'></div>
